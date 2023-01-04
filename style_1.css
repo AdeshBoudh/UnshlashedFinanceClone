@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 23px;
+    background: url(/graphics/ellipses.svg) no-repeat top;
+    background-position: top -200px center;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+    background: #0f0d1e;
+    color: #fff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.h7 {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #4d495d;
+}
+
+h1, h2 {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 75px;
+    line-height: 110%;
+    letter-spacing: -1.5px;
+}
+
+.h5, .h5_regular {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: .2px;
+    color: #fff;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 130%;
+}
+
